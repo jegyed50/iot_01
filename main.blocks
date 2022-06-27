@@ -1,0 +1,43 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="+UL:{El}DE/_SLCalqI!" x="0" y="0"><statement name="HANDLER"><block type="ESP8266_IoT_initWIFI" id=":oVE$ozj$Rb(sRsVp#oC"><field name="tx">SerialPin.P8</field><field name="rx">SerialPin.P12</field><field name="baudrate">BaudRate.BaudRate115200</field><next><block type="ESP8266_IoT_connectWifi" id="JLMqC1Hj8k;no.%]VljC"><value name="ssid"><shadow type="text" id="{rw*~Q/zn5lH^Of{:gfK"><field name="TEXT">TP-LINK_WiFi_2</field></shadow></value><value name="pw"><shadow type="text" id="#?qc{rN6~RX-[m?`G!}4"><field name="TEXT">your_pwd</field></shadow></value><next><block type="device_show_leds" id="1:o5{]t;Hh(Oo}N,ZHjg"><field name="LEDS">`
+        # . . . . 
+        . . . # . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="qN^ouW+b`Y%{$SKQngpk"><value name="pause"><shadow type="timePicker" id="eTCPrk^B+)JIOY.~XwG8"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="wvgY,8Z{q:~Q*.eD8~7!"><field name="LEDS">`
+        # # . . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="_Ji-4w3Fq-Hl~J0nAYtf"><value name="pause"><shadow type="timePicker" id="^r?64[u?q6Gp[@-fGpbw"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="En`C8Mc~[kd2vBgSlI**"><field name="LEDS">`
+        # # # . . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="Nx_7dOLFv$6h~pQZZylo"><value name="pause"><shadow type="timePicker" id="h)xdrysvXC.*W?^iJE(W"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="()A7SM|$QiX1?^+s-R?;"><field name="LEDS">`
+        # # # # . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="G!Z-+JtDbQnNCl@%{-X$"><value name="pause"><shadow type="timePicker" id="p3Ju?61sF%gSm/AvZjwD"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="hQ+-dLYl~^i2+j0HF6P-"><field name="LEDS">`
+        # # # # . 
+        . . . . . 
+        . . . . . 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="device_pause" id="ro@]9?I/h03gY0opiUi["><value name="pause"><shadow type="timePicker" id="w1nNI/)WSby6xGC/?wrA"><field name="ms">1000</field></shadow></value><next><block type="controls_if" id="@D;A3*x!2[|WEt5EIP^0"><mutation else="1"></mutation><value name="IF0"><shadow type="logic_boolean"><field name="BOOL">TRUE</field></shadow><block type="ESP8266_IoT_wifiState" id="@`3F+{5nByvcH}e=j*_E"><value name="State"><shadow type="logic_boolean" id="0Qhi%+:@p~ZWXJbunZkI"><field name="BOOL">TRUE</field></shadow></value></block></value><statement name="DO0"><block type="device_show_leds" id="]zI/?OFR|Hww:[Y[+UT}"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field></block></statement><statement name="ELSE"><block type="device_show_leds" id=",+[,0:a*LN9b-T[BoIj+"><field name="LEDS">`
+        # . . . # 
+        . # . # . 
+        . . # . . 
+        . # . # . 
+        # . . . #
+        `</field></block></statement></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block><block type="device_forever" id="-HG{i$65sa#PvPe^o}vW" x="723" y="7"></block></xml>
